@@ -6,7 +6,7 @@
 /*   By: temaapol <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/16 12:10:46 by temaapol          #+#    #+#             */
-/*   Updated: 2020/07/16 12:14:04 by temaapol         ###   ########.fr       */
+/*   Updated: 2020/07/17 16:27:01 by temaapol         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@ char   *ft_strncpy(char *dest, char *src, unsigned int n)
 	unsigned int i;
 
 	i = 0 ;
-	while(src != '\0' && (i < n))
+	while(src[i] != '\0' && (i < n))
 	{
 		dest[i];
 		i++;
