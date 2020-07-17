@@ -6,7 +6,7 @@
 /*   By: temaapol <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/16 12:15:24 by temaapol          #+#    #+#             */
-/*   Updated: 2020/07/16 12:19:22 by temaapol         ###   ########.fr       */
+/*   Updated: 2020/07/17 15:35:36 by temaapol         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */char *ft_str(char *str, char *to_find)
 {
@@ -21,7 +21,7 @@
 		{
 			if(to_find[j + 1] == '\0')
 			{
-				retrun (str + i);
+				return (str + i);
 			}
 			j++;
 		}
